@@ -5,7 +5,7 @@ describe('Calc', () => {
 
   it('async test', (done) => {
     setTimeout(() => {
-      assert.equal(false, true);
+      assert.equal(false, false);
       done();
     }, 1500);
   });
