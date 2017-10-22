@@ -10,7 +10,7 @@ var calc = {
     if (typeof a !== 'number' || typeof b !== 'number') {
       return calc.NAN;
     }
-    return a -b;
+    return a - b;
   },
   multi: (a, b) =>{
     if (typeof a !== 'number' || typeof b !== 'number') {
